@@ -9,11 +9,13 @@ import { ContactMeComponent } from './contact-me/contact-me.component';
 import {RouterModule, Routes}from'@angular/router';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
     ResumeComponent,
-    ContactMeComponent
+    ContactMeComponent,
+  
   ],
   imports: [
     BrowserModule,
